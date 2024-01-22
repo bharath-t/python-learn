@@ -1,0 +1,40 @@
+# .gitignore
+
+# Ignore virtual environments
+venv/
+env/
+virtualenv/
+
+# Ignore IDE/Editor files
+.vscode/
+.idea/
+.vs/
+
+# Ignore Python compiled files
+*.pyc
+__pycache__/
+
+# Ignore dependency management files
+requirements.txt
+Pipfile.lock
+pipenv.lock
+
+# Ignore build artifacts
+build/
+dist/
+*.egg-info/
+
+# Ignore logs and temporary files
+*.log
+*.pot
+*.pyo
+*.swp
+.pytest_cache/
+.coverage
+
+# Ignore environment configuration files
+.env
+.env.*
+
+# Ignore Jupyter Notebook checkpoints
+.ipynb_checkpoints/

@@ -15,7 +15,7 @@ virtualenv/
 __pycache__/
 
 # Ignore dependency management files
-requirements.txt
+# requirements.txt
 Pipfile.lock
 pipenv.lock
 

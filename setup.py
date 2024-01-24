@@ -4,9 +4,9 @@ import os
 from setuptools import setup, find_packages
 
 data_files = []
-for root, dirs, files in os.walk("PYTHON-LEARN"):
+for root, dirs, files in os.walk("src"):
     data_files.append(
-        (os.path.relpath(root, "PYTHON-LEARN"), [os.path.join(root, f) for f in files])
+        (os.path.relpath(root, "src"), [os.path.join(root, f) for f in files])
     )
 
 setup(
